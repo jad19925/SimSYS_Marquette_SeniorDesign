@@ -1,0 +1,7 @@
+Player Gender: No Preference
+Character Age: Young
+Character Dress: Formal
+Game Theme: Dream
+Game Subject: Science
+Game Setting: Natural
+Challenge Difficulty: Hard

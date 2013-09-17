@@ -1,0 +1,7 @@
+Player Gender: Female
+Character Age: Young
+Character Dress: Casual
+Game Theme: Gooble
+Game Subject: Math
+Game Setting: Natural
+Challenge Difficulty: Easy

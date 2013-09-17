@@ -1,0 +1,1487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>5f444527-de49-4f0b-aa93-50372fb76ade</ID>
+  <Name>Game</Name>
+  <BehaviorList />
+  <Acts>
+    <Act>
+      <ID>9d74ba28-ed13-423c-94fe-e70db3b63339</ID>
+      <Name>Act0</Name>
+      <BehaviorList />
+      <Assets />
+      <Scenes>
+        <Scene>
+          <ID>769e1359-58f5-4565-ad12-f1e05b47e8cf</ID>
+          <Name>Act0 Scene0</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\Home Office.png</Background>
+          <Screens>
+            <Screen>
+              <ID>7ff7e2b7-70f3-4306-9929-5a2441c17fe3</ID>
+              <Name>Act0 Scene0 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>0445df6c-28a2-4298-82b9-ebe88488d0ac</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>327.14999389648438</X>
+                  <Y>123.69999694824219</Y>
+                  <X2>575.04998779296875</X2>
+                  <Y2>202.01666259765625</Y2>
+                  <Width>247.89999389648438</Width>
+                  <Height>78.316665649414062</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>b41ce665-9384-4575-9e06-457f60b9facd</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>209.36663818359375</X>
+                  <Y>130.48335266113281</Y>
+                  <X2>380.79998779296875</X2>
+                  <Y2>423.4000244140625</Y2>
+                  <Width>171.433349609375</Width>
+                  <Height>292.91667175292969</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_10\char10_WalkRBehind.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>bda01442-6fab-4cf7-84cb-5080babd8836</ID>
+                  <Name>Today's algebra lesson was difficult.. I wonder if Gooble can help!</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>346.88330078125</X>
+                  <Y>128.63331604003906</Y>
+                  <X2>557.16670227050781</X2>
+                  <Y2>187.83332824707031</Y2>
+                  <Width>210.28340148925781</Width>
+                  <Height>59.20001220703125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>353b7c67-fa93-4e8b-bd55-f0b9a707ac10</ID>
+                  <Name>Next</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>13eede42-58ac-4983-ae12-659632423f87</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>581.83331298828125</X>
+                  <Y>332.75</Y>
+                  <X2>739.70001220703125</X2>
+                  <Y2>383.31668090820312</Y2>
+                  <Width>157.86669921875</Width>
+                  <Height>50.566680908203125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\Home Office.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+        <Scene>
+          <ID>b012f61a-b927-42bd-967d-1fcbcec886ba</ID>
+          <Name>Act0 Scene1</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\FaceingPC.png</Background>
+          <Screens>
+            <Screen>
+              <ID>13eede42-58ac-4983-ae12-659632423f87</ID>
+              <Name>Act0 Scene1 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>e0a2ab23-9fa6-4b5b-8001-a4500f515557</ID>
+                  <Name>Gooble!</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>191.48330688476563</X>
+                  <Y>152.06666564941406</Y>
+                  <X2>581.83331298828125</X2>
+                  <Y2>219.90000915527344</Y2>
+                  <Width>390.35000610351562</Width>
+                  <Height>67.833343505859375</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>cdf17d61-f689-410b-b7e3-3d69ab0afa25</ID>
+                  <Name>Algebra</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>193.33329772949219</X>
+                  <Y>224.2166748046875</Y>
+                  <X2>413.48330688476562</X2>
+                  <Y2>261.21665954589844</Y2>
+                  <Width>220.15000915527344</Width>
+                  <Height>36.999984741210938</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>19fe4f39-99be-4597-91fe-0815359da14e</ID>
+                  <Name>Algebra Adventures</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>192.0999755859375</X>
+                  <Y>266.14999389648438</Y>
+                  <X2>413.48330688476562</X2>
+                  <Y2>330.2833251953125</Y2>
+                  <Width>221.38333129882813</Width>
+                  <Height>64.133331298828125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>719374d6-d6c1-40a0-af39-eeb7335f1e2b</ID>
+                  <Name>View</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>e984528c-52bf-49cc-8975-8593bb77c82f</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>422.11663818359375</X>
+                  <Y>266.1500244140625</Y>
+                  <X2>520.16665649414062</X2>
+                  <Y2>301.91668701171875</Y2>
+                  <Width>98.050018310546875</Width>
+                  <Height>35.76666259765625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\FaceingPC.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+        <Scene>
+          <ID>4c9c461d-630a-4834-b5f8-f87ed83a6a04</ID>
+          <Name>Act0 Scene2</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\FaceingPC _Warping.png</Background>
+          <Screens>
+            <Screen>
+              <ID>e984528c-52bf-49cc-8975-8593bb77c82f</ID>
+              <Name>Act0 Scene2 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>99b9922e-5929-430b-99cd-73aa54b38baa</ID>
+                  <Name>Continue</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>e2bb34a5-a455-4107-9e0c-3240a64e0b95</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>636.71661376953125</X>
+                  <Y>336.45001220703125</Y>
+                  <X2>766.2166748046875</X2>
+                  <Y2>388.86666870117188</Y2>
+                  <Width>129.50006103515625</Width>
+                  <Height>52.416656494140625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\FaceingPC _Warping.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+      </Scenes>
+    </Act>
+    <Act>
+      <ID>8f6a4772-85fb-4f02-9e80-33607e84d83a</ID>
+      <Name>Act1</Name>
+      <BehaviorList />
+      <Assets />
+      <Scenes>
+        <Scene>
+          <ID>690d6aa5-1362-4e90-ab72-51f5f2d917fb</ID>
+          <Name>Act1 Scene0</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\Medieval.png</Background>
+          <Screens>
+            <Screen>
+              <ID>e2bb34a5-a455-4107-9e0c-3240a64e0b95</ID>
+              <Name>Act1 Scene0 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>5d09f2c6-68b6-47c9-9e60-dba48e01a468</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>36.083301544189453</X>
+                  <Y>194.00001525878906</Y>
+                  <X2>191.48330688476563</X2>
+                  <Y2>337.68333435058594</Y2>
+                  <Width>155.40000534057617</Width>
+                  <Height>143.68331909179688</Height>
+                  <DisplayImage>Props\GenericInteraction\Regular Speech 2.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>c01e38b0-9da2-4832-8fee-e06f89ab9423</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>278.43331909179688</X>
+                  <Y>251.35002136230469</Y>
+                  <X2>514</X2>
+                  <Y2>330.9000244140625</Y2>
+                  <Width>235.56668090820313</Width>
+                  <Height>79.550003051757812</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>acfcf9e5-b128-41ac-bd16-60311a72c7a7</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>68.149978637695312</X>
+                  <Y>205.71669006347656</Y>
+                  <X2>287.68330383300781</X2>
+                  <Y2>351.86669921875</Y2>
+                  <Width>219.5333251953125</Width>
+                  <Height>146.15000915527344</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>c7b77e9b-cc83-4034-921e-41f9ae14f634</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>135.98329162597656</X>
+                  <Y>313.01666259765625</Y>
+                  <X2>240.19995880126953</X2>
+                  <Y2>404.2833251953125</Y2>
+                  <Width>104.21666717529297</Width>
+                  <Height>91.26666259765625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_10\char10_RPointNo.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>320f5ea5-572a-4aa6-967c-dfe4d3ead241</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>295.08334350585938</X>
+                  <Y>277.25</Y>
+                  <X2>378.33332824707031</X2>
+                  <Y2>411.066650390625</Y2>
+                  <Width>83.249984741210938</Width>
+                  <Height>133.816650390625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>1dcfbc71-28e2-42ca-a4a0-df0d036725a8</ID>
+                  <Name>Who are you?</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>61.36663818359375</X>
+                  <Y>224.21665954589844</Y>
+                  <X2>145.8499755859375</X2>
+                  <Y2>271.08334350585938</Y2>
+                  <Width>84.48333740234375</Width>
+                  <Height>46.866683959960938</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>08af28d3-ff0e-4698-ab82-2fae7f94d4fe</ID>
+                  <Name>I am Sir Solvesalot!</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>292</X>
+                  <Y>261.83332824707031</Y>
+                  <X2>499.816650390625</X2>
+                  <Y2>313.01666259765625</Y2>
+                  <Width>207.816650390625</Width>
+                  <Height>51.183334350585938</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>38b81995-b3fb-4fe1-b8ad-68a03697f9e4</ID>
+                  <Name>You awake in a strange land and run into strange man..</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>9.5666418075561523</X>
+                  <Y>129.25</Y>
+                  <X2>342.566650390625</X2>
+                  <Y2>280.95001220703125</Y2>
+                  <Width>333.00000858306885</Width>
+                  <Height>151.70001220703125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>56ea0a23-5fdf-4b54-bbf9-07580914deeb</ID>
+                  <Name>Continue</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>8f95e2de-4fb8-4fcc-b5a6-d766f39bef20</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>571.96661376953125</X>
+                  <Y>335.2166748046875</Y>
+                  <X2>700.8499755859375</X2>
+                  <Y2>383.316650390625</Y2>
+                  <Width>128.88336181640625</Width>
+                  <Height>48.0999755859375</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\Medieval.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+        <Scene>
+          <ID>4093855d-1983-481a-bfb6-ff884d25b13b</ID>
+          <Name>Act1 Scene1</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\Medieval.png</Background>
+          <Screens>
+            <Screen>
+              <ID>8f95e2de-4fb8-4fcc-b5a6-d766f39bef20</ID>
+              <Name>Act1 Scene1 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>e2028d50-d322-4b2f-b9c9-534235207424</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>187.08334350585938</X>
+                  <Y>317.25</Y>
+                  <X2>270.33332824707031</X2>
+                  <Y2>451.066650390625</Y2>
+                  <Width>83.249984741210938</Width>
+                  <Height>133.816650390625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>dc748e5c-b1bc-4143-84c3-0d49a5646641</ID>
+                  <Name>To perform the addition operator you must add together the operands. EX: 2+4=6</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>262.56664180755615</X>
+                  <Y>160.25</Y>
+                  <X2>655.566650390625</X2>
+                  <Y2>272.95001220703125</Y2>
+                  <Width>393.00000858306885</Width>
+                  <Height>112.70001220703125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>31655c7b-a37f-4a9b-85ec-5774d534af85</ID>
+                  <Name>Continue</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>dece6879-f263-4409-9964-2a97a76e9601</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>780.96661376953125</X>
+                  <Y>495.2166748046875</Y>
+                  <X2>909.8499755859375</X2>
+                  <Y2>543.316650390625</Y2>
+                  <Width>128.88336181640625</Width>
+                  <Height>48.0999755859375</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>402b5800-c39d-4c50-93fe-978cff9974a4</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>60</X>
+                  <Y>324</Y>
+                  <X2>177</X2>
+                  <Y2>445</Y2>
+                  <Width>117</Width>
+                  <Height>121</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_10\char10_RPointDown.png</DisplayImage>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\Medieval.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+        <Scene>
+          <ID>a5409d8e-7372-4fa6-8948-d49517290a77</ID>
+          <Name>Act1 Scene2</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\Medieval.png</Background>
+          <Screens>
+            <Screen>
+              <ID>dece6879-f263-4409-9964-2a97a76e9601</ID>
+              <Name>Act1 Scene2 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>ef8b19a2-790f-429d-854e-b2db8dc9c422</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>69.383308410644531</X>
+                  <Y>273.55001831054688</Y>
+                  <X2>234.03330993652344</X2>
+                  <Y2>335.2166748046875</Y2>
+                  <Width>164.65000152587891</Width>
+                  <Height>61.666656494140625</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubbleLarge.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>b1a0ac98-999c-4c5c-aa95-ccc073adec3f</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>295.08334350585938</X>
+                  <Y>277.25</Y>
+                  <X2>378.33332824707031</X2>
+                  <Y2>411.066650390625</Y2>
+                  <Width>83.249984741210938</Width>
+                  <Height>133.816650390625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>10972a2d-126b-4901-bfff-2c1a56a67f04</ID>
+                  <Name>You can do it!!</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>76.783298492431641</X>
+                  <Y>280.94998168945312</Y>
+                  <X2>226.01663208007813</X2>
+                  <Y2>321.64999389648438</Y2>
+                  <Width>149.23333358764648</Width>
+                  <Height>40.70001220703125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>c046cff5-dc66-49bd-8b16-6726ed8f7634</ID>
+                  <Name>Using Algebra solve:</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>186.54997253417969</X>
+                  <Y>171.18333435058594</Y>
+                  <X2>748.95001220703125</X2>
+                  <Y2>227.30000305175781</Y2>
+                  <Width>562.40003967285156</Width>
+                  <Height>56.116668701171875</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>06f5caee-0082-4567-b7e2-bc666fb2e3bc</ID>
+                  <Name>2 + 4</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>184.08331298828125</X>
+                  <Y>115.68333435058594</Y>
+                  <X2>752.64996337890625</X2>
+                  <Y2>165.63334655761719</Y2>
+                  <Width>568.566650390625</Width>
+                  <Height>49.95001220703125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>a171d8a0-c4c6-4b17-afea-3a57c4f62672</ID>
+                  <Name>2</Name>
+                  <BehaviorList>
+                    <Behavior>
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                    </Behavior>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>3b1fa6c9-2389-42ce-9414-8ea46e2cf680</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>322.83331298828125</X>
+                  <Y>230.38333129882813</Y>
+                  <X2>607.73333740234375</X2>
+                  <Y2>264.30001831054688</Y2>
+                  <Width>284.9000244140625</Width>
+                  <Height>33.91668701171875</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>bdb22507-009b-45d5-a091-8d0d46ad0a5a</ID>
+                  <Name>4</Name>
+                  <BehaviorList>
+                    <Behavior>
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                    </Behavior>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>dece6879-f263-4409-9964-2a97a76e9601</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>322.83331298828125</X>
+                  <Y>265.53335571289062</Y>
+                  <X2>607.73333740234375</X2>
+                  <Y2>299.45004272460938</Y2>
+                  <Width>284.9000244140625</Width>
+                  <Height>33.91668701171875</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>161d100e-d673-41f8-b296-57a80a8a5f95</ID>
+                  <Name>6</Name>
+                  <BehaviorList>
+                    <Behavior>
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                    </Behavior>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>b188639e-f82c-40fb-a5c8-01c964bac8cc</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>322.83331298828125</X>
+                  <Y>303.76666259765625</Y>
+                  <X2>607.73333740234375</X2>
+                  <Y2>337.683349609375</Y2>
+                  <Width>284.9000244140625</Width>
+                  <Height>33.91668701171875</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>230c79ad-949f-42bc-9910-0b71bcd0d225</ID>
+                  <Name>8</Name>
+                  <BehaviorList>
+                    <Behavior>
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                    </Behavior>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>8f95e2de-4fb8-4fcc-b5a6-d766f39bef20</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>322.83331298828125</X>
+                  <Y>343.23333740234375</Y>
+                  <X2>607.73333740234375</X2>
+                  <Y2>377.1500244140625</Y2>
+                  <Width>284.9000244140625</Width>
+                  <Height>33.91668701171875</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\Medieval.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+        <Scene>
+          <ID>38388ea2-2918-4cf1-96e3-68ccc6d53f9f</ID>
+          <Name>Act1 Scene3</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\Medieval.png</Background>
+          <Screens>
+            <Screen>
+              <ID>3b1fa6c9-2389-42ce-9414-8ea46e2cf680</ID>
+              <Name>Act1 Scene3 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>55c5a617-3049-430e-a521-6d4e16cda768</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>36.083301544189453</X>
+                  <Y>194.00001525878906</Y>
+                  <X2>191.48330688476563</X2>
+                  <Y2>337.68333435058594</Y2>
+                  <Width>155.40000534057617</Width>
+                  <Height>143.68331909179688</Height>
+                  <DisplayImage>Props\GenericInteraction\Regular Speech 2.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>02b44ee4-205f-4747-8e0b-80f7f051ec44</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>278.43331909179688</X>
+                  <Y>251.35002136230469</Y>
+                  <X2>514</X2>
+                  <Y2>330.9000244140625</Y2>
+                  <Width>235.56668090820313</Width>
+                  <Height>79.550003051757812</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>2406c63a-ab43-4a03-b159-3656f394aded</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>68.149978637695312</X>
+                  <Y>205.71669006347656</Y>
+                  <X2>287.68330383300781</X2>
+                  <Y2>351.86669921875</Y2>
+                  <Width>219.5333251953125</Width>
+                  <Height>146.15000915527344</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>6c527c4f-5f0b-41d6-9f36-0f9aca965aa2</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>444.31666564941406</X>
+                  <Y>129.86666870117188</Y>
+                  <X2>542.36666870117188</X2>
+                  <Y2>241.48335266113281</Y2>
+                  <Width>98.050003051757812</Width>
+                  <Height>111.61668395996094</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_22\char22_LEvil.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>4e0f90f3-dc04-45c1-9d2c-7374fc41277b</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>295.08334350585938</X>
+                  <Y>277.25</Y>
+                  <X2>378.33332824707031</X2>
+                  <Y2>411.066650390625</Y2>
+                  <Width>83.249984741210938</Width>
+                  <Height>133.816650390625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>0d6c9433-7d4d-469f-8d7a-0b48b83f3c1e</ID>
+                  <Name>You answered incorrectly!</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>9.5666418075561523</X>
+                  <Y>129.25</Y>
+                  <X2>342.566650390625</X2>
+                  <Y2>280.95001220703125</Y2>
+                  <Width>333.00000858306885</Width>
+                  <Height>151.70001220703125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>e0c6b968-fda7-4ae1-901a-cda82b13948c</ID>
+                  <Name>Don't worry! You can try again.</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>292</X>
+                  <Y>261.83332824707031</Y>
+                  <X2>499.816650390625</X2>
+                  <Y2>313.01666259765625</Y2>
+                  <Width>207.816650390625</Width>
+                  <Height>51.183334350585938</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>b9ecb513-8fcf-4b54-a2c6-e7d2d5dd17d6</ID>
+                  <Name>Retry</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>dece6879-f263-4409-9964-2a97a76e9601</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>571.96661376953125</X>
+                  <Y>335.2166748046875</Y>
+                  <X2>700.8499755859375</X2>
+                  <Y2>383.316650390625</Y2>
+                  <Width>128.88336181640625</Width>
+                  <Height>48.0999755859375</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\Medieval.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+        <Scene>
+          <ID>5591a0aa-b881-4ee4-8e00-34d2432a7620</ID>
+          <Name>Act1 Scene4</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\Medieval.png</Background>
+          <Screens>
+            <Screen>
+              <ID>fbb2e60c-152c-496d-8c2e-41531a4b4c79</ID>
+              <Name>Act1 Scene4 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>29a604ce-f898-4129-ac0f-3801b6c5f75a</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>36.083301544189453</X>
+                  <Y>194.00001525878906</Y>
+                  <X2>191.48330688476563</X2>
+                  <Y2>337.68333435058594</Y2>
+                  <Width>155.40000534057617</Width>
+                  <Height>143.68331909179688</Height>
+                  <DisplayImage>Props\GenericInteraction\Regular Speech 2.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>28df05f2-b743-4e1c-b9f4-e361df22cc37</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>278.43331909179688</X>
+                  <Y>251.35002136230469</Y>
+                  <X2>514</X2>
+                  <Y2>330.9000244140625</Y2>
+                  <Width>235.56668090820313</Width>
+                  <Height>79.550003051757812</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>630ba10f-73a8-4320-97fc-d3e570c254be</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>68.149978637695312</X>
+                  <Y>205.71669006347656</Y>
+                  <X2>287.68330383300781</X2>
+                  <Y2>351.86669921875</Y2>
+                  <Width>219.5333251953125</Width>
+                  <Height>146.15000915527344</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>6552969d-e5c0-44bb-93c5-d0e90143d378</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>295.08334350585938</X>
+                  <Y>277.25</Y>
+                  <X2>378.33332824707031</X2>
+                  <Y2>411.066650390625</Y2>
+                  <Width>83.249984741210938</Width>
+                  <Height>133.816650390625</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_19\char19_LPointUp.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>ea003ae0-cff8-4a18-b3b3-48bf92857a7c</ID>
+                  <Name>Have a safe journey back to your world!</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>292</X>
+                  <Y>261.83332824707031</Y>
+                  <X2>499.816650390625</X2>
+                  <Y2>313.01666259765625</Y2>
+                  <Width>207.816650390625</Width>
+                  <Height>51.183334350585938</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>71aaed9c-c09c-4f5d-8736-32a93779bbf6</ID>
+                  <Name>After defeating lord calcutron, sir solvesalot takes tou back to the warp zone that will take you back to your own world.</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>9.5666418075561523</X>
+                  <Y>129.25</Y>
+                  <X2>342.566650390625</X2>
+                  <Y2>280.95001220703125</Y2>
+                  <Width>333.00000858306885</Width>
+                  <Height>151.70001220703125</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>0b54acb5-bc67-46bc-bf21-014bd838470e</ID>
+                  <Name>Warp!</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="TransitionBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>Transition Behavior</DisplayName>
+                      <TransitionID>b188639e-f82c-40fb-a5c8-01c964bac8cc</TransitionID>
+                      <Transition>None</Transition>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>571.96661376953125</X>
+                  <Y>335.2166748046875</Y>
+                  <X2>700.8499755859375</X2>
+                  <Y2>383.316650390625</Y2>
+                  <Width>128.88336181640625</Width>
+                  <Height>48.0999755859375</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\Medieval.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+      </Scenes>
+    </Act>
+    <Act>
+      <ID>a7634951-f9a2-430f-97e1-16ae2262dcc9</ID>
+      <Name>Act2</Name>
+      <BehaviorList />
+      <Assets />
+      <Scenes>
+        <Scene>
+          <ID>4e9c896b-aa0f-4778-a0c1-c62f47ad05be</ID>
+          <Name>Act2 Scene0</Name>
+          <BehaviorList />
+          <Assets />
+          <Background>Backdrops\Home Office.png</Background>
+          <Screens>
+            <Screen>
+              <ID>b188639e-f82c-40fb-a5c8-01c964bac8cc</ID>
+              <Name>Act2 Scene0 Screen0</Name>
+              <BehaviorList />
+              <Assets>
+                <AssetBase xsi:type="ImageAsset">
+                  <ID>4aec6195-8062-47f0-ac4a-f46bcb6c87cb</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>386.29995727539062</X>
+                  <Y>133.41665649414063</Y>
+                  <X2>663.79998779296875</X2>
+                  <Y2>243.18331909179688</Y2>
+                  <Width>277.50003051757812</Width>
+                  <Height>109.76666259765625</Height>
+                  <DisplayImage>Props\GenericInteraction\TextBubble.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="CharacterAsset">
+                  <ID>0c7437dd-c85f-47e8-b529-48d89777511e</ID>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>218.61663818359375</X>
+                  <Y>179.16666412353516</Y>
+                  <X2>458.49993896484375</X2>
+                  <Y2>473.93331909179688</Y2>
+                  <Width>239.88330078125</Width>
+                  <Height>294.76665496826172</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                  <Experience>0</Experience>
+                  <Certificates>0</Certificates>
+                  <Promotions>0</Promotions>
+                  <Trophies>0</Trophies>
+                  <Points>0</Points>
+                  <Hint>0</Hint>
+                  <DisplayImage>character_10\char10_RPointUp.png</DisplayImage>
+                </AssetBase>
+                <AssetBase xsi:type="InformationBoxAsset">
+                  <ID>30660a0f-cd7c-4165-8272-8fab4da04a33</ID>
+                  <Name>What a great game! I learned so much.</Name>
+                  <BehaviorList />
+                  <Opacity>1</Opacity>
+                  <X>399.86663818359375</X>
+                  <Y>149.83334350585938</Y>
+                  <X2>649.61666870117188</X2>
+                  <Y2>216.43333435058594</Y2>
+                  <Width>249.75003051757813</Width>
+                  <Height>66.599990844726562</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+                <AssetBase xsi:type="ButtonAsset">
+                  <ID>aa173fb1-cb20-4fa8-8a36-2863f75c1f05</ID>
+                  <Name>End Game</Name>
+                  <BehaviorList>
+                    <Behavior xsi:type="EndGameBehavior">
+                      <Trigger>Click</Trigger>
+                      <Time>0</Time>
+                      <DisplayName>End Game Behavior</DisplayName>
+                    </Behavior>
+                  </BehaviorList>
+                  <Opacity>1</Opacity>
+                  <X>747.7332763671875</X>
+                  <Y>497.9666748046875</Y>
+                  <X2>869.21661376953125</X2>
+                  <Y2>544.8333740234375</Y2>
+                  <Width>121.48333740234375</Width>
+                  <Height>46.86669921875</Height>
+                  <BackgroundColor>
+                    <A>255</A>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>0</B>
+                  </BackgroundColor>
+                  <ForegroundColor>
+                    <A>255</A>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                  </ForegroundColor>
+                  <FontSize>15</FontSize>
+                  <FontFamily>Comic Sans MS</FontFamily>
+                </AssetBase>
+              </Assets>
+              <Background>Backdrops\Home Office.png</Background>
+            </Screen>
+          </Screens>
+        </Scene>
+      </Scenes>
+    </Act>
+  </Acts>
+</Game>
